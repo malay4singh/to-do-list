@@ -24,17 +24,18 @@
 
 .input_container{
     /* border: 2px solid black; */
-    width: 400px;
+    width: 60%;
     margin: 0 auto;
     margin-top: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 input{
     font-size: 20px;
     background-color: #ddfff9;
     color: black;
+    width: 70%;
 }
 
 button{
@@ -124,4 +125,18 @@ button:hover{
 
 .list .card:last-child .controls .down{
     visibility: hidden;
+}
+
+@media only screen and (max-width: 600px){
+        .container{
+                width: 100%;
+                border-radius: 0;
+                height: 90%;
+        }
+}
+
+@media only screen and (min-width: 601px) and (max-width:1200px){
+        .container{
+                width: 80%;
+        }
 }
