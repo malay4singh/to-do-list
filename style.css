@@ -133,7 +133,8 @@ button:hover{
                 border-radius: 0;
                 border: 0;
                 border-top: 2px solid black;
-                height: 90%;
+                border-bottom: 2px solid black;
+                height: 85vh;
         }
 }
 
